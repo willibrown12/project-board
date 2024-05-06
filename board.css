@@ -1,0 +1,207 @@
+.backroundimage{background-image: url(https://unblast.com/wp-content/uploads/2023/07/corkboard-texture.jpg);
+background-repeat: repeat-y;
+background-size: cover;}
+.overflow-y{ overflow-wrap:break-word; overflow-y: auto;}
+
+.flex{display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: row-reverse;}
+
+.container1{ display: flex;
+justify-content: space-around;
+flex-wrap: wrap;}
+
+
+.sticky {position: fixed;
+    bottom: 10px;
+    right: 10px;  display: flex;
+    flex-direction: column; 
+    align-items: flex-end;}
+    
+.button-53 {
+    background-color: #3DD1E7;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    font-family: 'RodneyWrite', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: sticky;
+   
+  }
+  
+  .button-53:focus {
+    outline: 0;
+  }
+  
+  .button-53:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+    
+  }
+  
+  .button-53:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-53 {
+      padding: .75rem 3rem;
+      font-size: 1.25rem;
+    }
+  }
+  .box {
+    
+   
+    width: 430px;
+    height: 350px;
+    background: #ddffa5;
+   
+    border-radius: 2px;
+    box-shadow:  0px 20px 20px 5px rgba(0, 0, 0, 0.379);
+    transition: box-shadow .3s;
+    background-image: url(https://freesvg.org/img/thumb%20tack%202%20plain.png);
+  background-repeat: no-repeat;
+background-position: top 0px right 50%;
+background-size: 20%;
+  }
+
+
+  .box2 {
+    
+   
+    width: 430px;
+    height: 350px;
+    background: #ddffa5;
+   
+    border-radius: 2px;
+  }
+ .fade2{animation: fadeDown 1s ;}
+
+  @keyframes fadeDown{
+0% {opacity: 0;
+transform: translatez((30px) scale(0.9));}
+
+100%{opacity: 1;
+  transform: translatez((0px) scale(1));}
+  }
+
+
+
+  .box:hover{
+     box-shadow:  0px 0px 0px 0px rgba(0,0,0,.7);
+  }
+ 
+  
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #ffffff2c;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #bcaeae00;
+    border-radius: 10px;
+    border: 3px double #ffffff00;
+  }
+  
+ 
+  .ransom {
+   text-align: center;
+    font-size: 500%;
+    
+  }
+  
+ .rww {
+    display: inline-flex;
+    align-items: flex-start;
+  }
+  
+  .ransom .rww > div {
+    padding: 0.1em 0.3em;
+    margin: 0.1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 112%;
+  }
+  
+  .rl {
+    background-color: #5353f8;
+    color: #000000;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    box-shadow:  0px 2px 5px 2px rgba(0, 0, 0, 0.563);
+  }
+  
+  .rr {
+    background-color: #F3CB36;
+    color: #2600ff;
+    font-family: 'Tahoma', Geneva, sans-serif;
+    font-size: 90%;
+    box-shadow:  0px 2px 5px 2px rgba(0, 0, 0, 0.563);
+  }
+  
+ 
+  
+  .rr2{
+    background-color: #69fe7f;
+    color: #ff0000;
+    font-family: cursive;
+    font-size: 110%;
+    font-weight: lighter;
+    box-shadow:  0px 2px 5px 2px rgba(0, 0, 0, 0.563);
+  }
+  
+.rr3{
+    background-color: #ed3838;
+    color: #ffffff;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 100%;
+    box-shadow:  0px 2px 5px 2px rgba(0, 0, 0, 0.563);
+  
+  }
+ 
+  .hidden {
+    visibility: hidden;
+}
+
+.box:hover .hidden {
+    visibility: visible;
+}
+  
+  
+  
+ 
